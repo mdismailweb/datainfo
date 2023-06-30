@@ -1,0 +1,105 @@
+body{
+    background: linear-gradient(to right, aquamarine, aqua);
+    background-image: url("https://static.vecteezy.com/system/resources/previews/006/852/804/original/abstract-blue-background-simple-design-for-your-website-free-vector.jpg");
+}
+
+.section{
+    width: 90%;
+    height: auto;
+    opacity: 0.8;
+    background-color: aquamarine;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.bio{
+    text-align: center;
+    padding: 20px;
+    font-size: x-large;
+    font-family: 'Martian Mono', monospace;
+    color: lightslategray;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  h1 {
+    text-align: center;
+    color: #333333;
+  }
+
+  .form-container {
+    max-width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    /* background-image: url("https://img.freepik.com/premium-photo/foliage-tropical-leaf-dark-green-with-rain-water-drop-texture-abstract-pattern-nature-background_1484-2338.jpg"); */
+    padding: 20px;
+    opacity: 0.7;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    color:black;
+    animation: slideup 0.8s ease-in;
+  }
+
+  input{
+    color: purple;
+  }
+
+  .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .form-group label {
+    flex: 0 0 120px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
+  .form-group input[type="text"],
+  .form-group input[type="date"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+  .form-group select {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+  .submit-button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
+
+  .submit-button:hover {
+    background-color: #45a049;
+  }
+
+  @keyframes slideup{
+    0%{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100%{
+        opacity: 100;
+        transform: translateY(0);
+    }
+  }
